@@ -8,20 +8,4 @@
 //     console.log("yup");
 //   } else console.log("value should be +ve");
 // }
-import { NumberInput } from "@ark-ui/react";
 
-export const NumberInput = () => {
-  return (
-    <>
-      <numberInput.Root>
-        <NumberInput.Label />
-        <NumberInput.Scrubber />
-        <NumberInput.Control>
-          <NumberInput.Input />
-          <NumberInput.IncrementTrigger />
-          <NumberInput.DecrementTrigger />
-        </NumberInput.Control>
-      </numberInput.Root>
-    </>
-  );
-};
